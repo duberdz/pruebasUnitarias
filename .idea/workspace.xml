@@ -2,32 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0abb67-ea54-4152-8571-3213bad3935f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultation/ConsultationTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AnyCurrentPrescriptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/AnySelectedMedicineException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/IncorrectEndingDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/IncorrectTakingGuidelinesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NotFinishedTreatmentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ProductNotInPrescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/printingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/FqUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescriptionLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/Posology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/ProductSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/TakingGuideline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicalconsultation/dayMoment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ScheduledVisitAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/HealthCardIDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/ProductIDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/medicalconsultation/MedicalPrescriptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/medicalconsultation/ProductSpecificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/consultation/ConsultationTerminalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/DigitalSignatureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/medicalconsultation/PosologyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/medicalconsultation/TakingGuidelineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PruebasUnitarias.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PruebasUnitarias.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DigitalSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/ProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ProductID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/HealthNationalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/HealthNationalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PruebasUnitarias/consultation/ConsultationTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PruebasUnitarias/consultation/ConsultationTerminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PruebasUnitarias/medicalconsultation/MedicalPrescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PruebasUnitarias/medicalconsultation/MedicalPrescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PruebasUnitarias/medicalconsultation/ProductSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PruebasUnitarias/medicalconsultation/ProductSpecificationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultation/ConsultationTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consultation/ConsultationTerminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicalconsultation/MedicalPrescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medicalconsultation/MedicalPrescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/medicalconsultation/MedicalPrescriptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/medicalconsultation/ProductSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/medicalconsultation/ProductSpecificationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,37 +56,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in PruebasUnitarias">
-    <configuration name="All in PruebasUnitarias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PruebasUnitarias" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthCardIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConsultationTerminalTest">
+    <configuration name="ConsultationTerminalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PruebasUnitarias" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="consultation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.HealthCardIDTest" />
+      <option name="PACKAGE_NAME" value="consultation" />
+      <option name="MAIN_CLASS_NAME" value="consultation.ConsultationTerminalTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PruebasUnitarias" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +88,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.ProductIDTest" />
+      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicalPrescriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PruebasUnitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultation" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultation.MedicalPrescriptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PruebasUnitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultation" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultation.ProductSpecificationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakingGuidelineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PruebasUnitarias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medicalconsultation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medicalconsultation" />
+      <option name="MAIN_CLASS_NAME" value="medicalconsultation.TakingGuidelineTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,9 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in PruebasUnitarias" />
-        <item itemvalue="JUnit.ProductIDTest" />
-        <item itemvalue="JUnit.HealthCardIDTest" />
+        <item itemvalue="JUnit.ConsultationTerminalTest" />
+        <item itemvalue="JUnit.MedicalPrescriptionTest" />
+        <item itemvalue="JUnit.DigitalSignatureTest" />
+        <item itemvalue="JUnit.ProductSpecificationTest" />
+        <item itemvalue="JUnit.TakingGuidelineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610471176155</updated>
-      <workItem from="1610471181309" duration="30069000" />
+      <workItem from="1610471181309" duration="50270000" />
     </task>
     <servers />
   </component>
@@ -141,37 +167,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1610896129478">
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1610915261032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1610896129478" />
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1610915261032" />
     <state x="508" y="342" width="423" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610560534296">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="342" width="423" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1610560534296" />
+    <state x="388" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610901849760">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="388" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1610901849760" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610901793521">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610901793521" />
     <state x="307" y="87" key="#medicalconsultation_in_PruebasUnitarias" timestamp="1610887770437">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="307" y="87" key="#medicalconsultation_in_PruebasUnitarias/0.0.1440.900@0.0.1440.900" timestamp="1610887770437" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610893901777">
+    <state x="472" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1610904553671">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610893901777" />
+    <state x="472" y="304" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1610904553671" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610920696446">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610920696446" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1610844191958" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610893901775">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610920696444">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610893901775" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610920696444" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1610844191955" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610893901774">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610920696444">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610893901774" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610920696444" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1610844191952" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610893901776">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610920696445">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610893901776" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610920696445" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1610844191956" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1610887369501">
       <screen x="0" y="0" width="1440" height="900" />

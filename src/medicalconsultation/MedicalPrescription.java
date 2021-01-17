@@ -29,12 +29,13 @@ public class MedicalPrescription {
         this.prescripcion = new HashMap<>();
     }
 
-    public HealthCardID getHcID() {
-        return hcID;
-    }
-
-    public void setEndDate(Date endDate) {
+    public MedicalPrescription (int prescCode, Date prescDate, Date endDate, HealthCardID hcID, DigitalSignature eSign, HashMap<ProductID, MedicalPrescriptionLine> lineas){
+        this.prescCode = prescCode;
+        this.prescDate = prescDate;
         this.endDate = endDate;
+        this.hcID = hcID;
+        this.eSign = eSign;
+        this.prescripcion = lineas;
     }
 
     public void addLine(ProductID prodID, String[] instruc) throws IncorrectTakingGuidelinesException {
@@ -79,5 +80,41 @@ public class MedicalPrescription {
 
         newLine = new MedicalPrescriptionLine(taking);
         prescripcion.put(prodID, newLine);
+    }
+
+    public HealthCardID getHcID() {
+        return hcID;
+    }
+
+    public HashMap<ProductID, MedicalPrescriptionLine> getPrescripcion() {
+        return prescripcion;
+    }
+
+    public int getPrescCode() {
+        return prescCode;
+    }
+
+    public void setPrescCode(int prescCode) {
+        this.prescCode = prescCode;
+    }
+
+    public DigitalSignature geteSign() {
+        return eSign;
+    }
+
+    public void seteSign(DigitalSignature eSign) {
+        this.eSign = eSign;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+
+    public void setHcID(HealthCardID hcID) {
+        this.hcID = hcID;
     }
 }
