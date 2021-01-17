@@ -28,6 +28,6 @@ final public class ProductID {
 
     @Override
     public String toString() {
-        return "ProductID{" + "product code='" + productID + '\'' + '}';
+        return "data.ProductID{" + "product code='" + productID + '\'' + '}';
     }
 }
